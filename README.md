@@ -11,6 +11,7 @@ Below is a set of image generation examples
 For more information about nnU-Net, please read the following paper:
 
 
-    Zhang, Xinru.,(2021). CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation. In: International Conference on Medical Image Computing and Computer-Assisted      Intervention.
+      Zhang, Xinru.,(2021). CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation. In: International Conference on Medical Image Computing 
+      and Computer Assisted Intervention.
 
 Please also cite this paper if you are using CarveMix for your research!
