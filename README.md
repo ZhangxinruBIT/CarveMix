@@ -7,3 +7,10 @@ the size of the ROI is sampled from a probability distribution. The carved ROI t
 Below is a set of image generation examples
 
 ![image](https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/carve.png)
+
+For more information about nnU-Net, please read the following paper:
+
+
+    Zhang, Xinru.,(2021). CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation. In: International Conference on Medical Image Computing and Computer-Assisted      Intervention.
+
+Please also cite this paper if you are using CarveMix for your research!
