@@ -15,3 +15,6 @@ For more information about nnU-Net, please read the following paper:
       on Medical Image Computing and Computer Assisted Intervention.
 
 Please also cite this paper if you are using CarveMix for your research!
+
+**CarveMix augmentation method is agnostic to the network structure**
+we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even thedata format and naming can be referenced in the nnU-Net example.
