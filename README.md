@@ -49,7 +49,7 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
     
  "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. 
  
- **Second, you can run Simple_CarveMix**, you need to specify several path interfaces and generate_number you want. To run the demo:
+ **Second, you can run Simple_CarveMix.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
 
     cd Task100_ATLASwithCarveMix/
     python Simple_CarveMix.py -num 5
