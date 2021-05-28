@@ -17,7 +17,7 @@ For more information about CarveMix, please read the following paper:
 Please also cite this paper if you are using CarveMix for your research!
 # Installation
 ```
-
+git clone https://github.com/ZhangxinruBIT/CarveMix.git
 pip install -r requirements.txt
 ```
 # Usage
