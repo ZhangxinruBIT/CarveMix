@@ -24,7 +24,6 @@ We provide a demo data file named "Task100_ATLASwithCarveMix" which contains 3 s
 **First you should prepare task folder**, the following structure is expected:
 
     /data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/
-    ├── dataset.json
     ├── imagesTr
     │   ├── ATLAS_001_0000.nii.gz
     │   ├── ATLAS_002_0000.nii.gz
