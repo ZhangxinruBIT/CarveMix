@@ -19,7 +19,7 @@ Please also cite this paper if you are using CarveMix for your research!
 **CarveMix augmentation method is agnostic to the network structure**
 we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even thed ata format and naming can be referenced in the nnU-Net example (see [nnU-Net](https://github.com/MIC-DKFZ/nnUNet.git)).
 Note that you need to determine the data partition beforehand, especially for training sets and validation sets, because validation sets do not participate in CarveMix. If you are using the nnU-Net framework,You need  divide themselves at nnunet.training.net work_training. NnUNetTrainerV2. do_split data, you can distinguish by the presence of 'CarveMix' in the name.
-
+We provide a demo data file named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet. It is important to note that the demo data schema is single-label single-mode, and multi-label multi-modes such as the BRATS dataset can be modified as needed.
 **First you should prepare task folder**, the following structure is expected:
 
     /data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/
@@ -36,7 +36,7 @@ Note that you need to determine the data partition beforehand, especially for tr
     │   ├── ATLAS_003.nii.gz
     │   ├── ...
     
- "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. We provide a demo datafile named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet.
+ "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. 
  
  **Second, you can run CarveMix_uniform.py**, you need to specify several path interfaces and generate_number you want. Take the demo, for example:
 
