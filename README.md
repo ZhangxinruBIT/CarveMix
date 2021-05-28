@@ -46,8 +46,7 @@ Note that you need to determine the data partition beforehand, especially for tr
     generate_number = 5
  
 Then, your task file can look like this:
- ![image](https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/dirlistname.png)
- 
+ <img align="left" width="600" height="200" src="https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/dirlistname.png">
  
  
 The name of the newly generated image will include the 'Carvemix', the specific information of each generated image is in "CarveMixID.csv".
