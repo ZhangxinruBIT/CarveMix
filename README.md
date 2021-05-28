@@ -46,9 +46,6 @@ We provide a demo data file named "Task100_ATLASwithCarveMix" which contains 3 s
     mixid_csv_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/'
     generate_number = 5
  
-Then, your task file can look like this:
- <img align="left"  src="https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/dirlistname.png">
- 
  
 The name of the newly generated image will include the 'Carvemix', the specific information of each generated image is in "CarveMixID.csv".
     
