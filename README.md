@@ -8,7 +8,7 @@ Fig.1 below is a set of image generation examples
 
 ![image](https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/carve.png)
 
-For more information about nnU-Net, please read the following paper:
+For more information about CarveMix, please read the following paper:
 
 
       Zhang, Xinru.,(2021). CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation. In: International Conference 
