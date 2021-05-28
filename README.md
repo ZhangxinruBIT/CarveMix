@@ -15,6 +15,11 @@ For more information about CarveMix, please read the following paper:
       on Medical Image Computing and Computer Assisted Intervention.
 
 Please also cite this paper if you are using CarveMix for your research!
+# Installation
+```
+
+pip install -r requirements.txt
+```
 # Usage
 **CarveMix augmentation method is agnostic to the network structure**
 we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even thed ata format and naming can be referenced in the nnU-Net example (see [nnU-Net](https://github.com/MIC-DKFZ/nnUNet.git)).
