@@ -5,8 +5,7 @@ CarveMix stochastically combines two existing labeled images to generate new lab
 the size of the ROI is sampled from a probability distribution. The carved ROI then replaces the corresponding voxels in a second labeled image, and the annotation of the second image is replaced accordingly as well.
 
 Fig.1 below is a set of image generation examples
-
-![image](https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/carve.png)
+<img width="250" height="250" src="https://github.com/ZhangxinruBIT/CarveMix/blob/main/readme_Img/carve.png"/>
 
 For more information about CarveMix, please read the following paper:
 
