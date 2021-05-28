@@ -29,7 +29,8 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
 
 **First you should prepare task folder**, the following structure is expected:
 
-    /data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/
+    CarveMix/Task100_ATLASwithCarveMix/
+    ├── Simple_CarveMix.py
     ├── imagesTr
     │   ├── ATLAS_001_0000.nii.gz
     │   ├── ATLAS_002_0000.nii.gz
@@ -44,13 +45,9 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
     
  "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. 
  
- **Second, you can run CarveMix_uniform.py**, you need to specify several path interfaces and generate_number you want. Take the demo, for example:
+ **Second, you can run CarveMix_uniform.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
 
-    imagesTr_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/imagesTr'
-    labelsTr_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/labelsTr'
-    mask_check_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/mask'
-    mixid_csv_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix'
-    generate_number = 5
+    python Simple_CarveMix.py -num 5
  
  
 The name of the newly generated image will include the 'Carvemix', the specific information of each generated image is in "CarveMixID.csv".
