@@ -50,7 +50,7 @@ We provide a demo data file named "Task100_ATLASwithCarveMix" which contains 3 s
  
 The name of the newly generated image will include the 'Carvemix', the specific information of each generated image is in "CarveMixID.csv".
 
-Because this is the offline version of the data augmentation, completely independent of the network architecture and framework, you can continue to complete training and other operations based on this data. We recommend the nnU-Net framework, and experiments show that our data augmentation approach can overlap with the traditional data augmentation(nnunet.training.data_augmentation.default_data_augmentation.get_moreDA_augmentation()) set in the nnU-Net(currently targeting brain lesions).
+Because this is the offline version of the data augmentation(currently targeting brain lesions), completely independent of the network architecture and framework, you can continue to complete training and other operations based on this data. We recommend the nnU-Net framework, and experiments show that our data augmentation approach has a stacking effect on improvement overlap with the traditional data augmentation(**nnunet.training.data_augmentation.default_data_augmentation.get_moreDA_augmentation()**) set in the nnU-Net.
     
     
 
