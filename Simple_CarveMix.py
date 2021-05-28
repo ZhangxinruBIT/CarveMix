@@ -154,10 +154,10 @@ if __name__ == '__main__':
         new_target, new_label, mask, c = generate_new_sample(image_a,image_b,label_a,label_b)
         
         s = str(i)
-        sitk.WriteImage(new_target, opt.imagesTr_path + prefix +'CarveMix_' + s + '_0000.nii.gz')
-        sitk.WriteImage(new_label, opt.labelsTr_path + prefix +'CarveMix_' + s + '.nii.gz')
+        sitk.WriteImage(new_target, os.path.join(opt.imagesTr_path, prefix +'_CarveMix_' + s + '_0000.nii.gz'))
+        sitk.WriteImage(new_label, os.path.join(opt.labelsTr_path, prefix +'_CarveMix_' + s + '.nii.gz'))
         if i%100==0:
-            sitk.WriteImage(mask, opt.mask_check_path+ 'mask'+ 'CarveMix_mask'+ s + '.nii.gz')
+            sitk.WriteImage(mask, os.path.join(opt.mask_check_path, 'mask'+ '_CarveMix_mask'+ s + '.nii.gz'))
             
         csv_string = s + ',' + str(Cases[rand_index_a]) + ',' + str(Cases[rand_index_b]) +','+str(c)+ '\n'
         with open(opt.mixid_csv_path,'a') as f:
