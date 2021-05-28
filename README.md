@@ -22,10 +22,14 @@ pip install -r requirements.txt
 ```
 # Usage
 **CarveMix augmentation method is agnostic to the network structure**
-we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even thed ata format and naming can be referenced in the nnU-Net example (see [nnU-Net](https://github.com/MIC-DKFZ/nnUNet.git)).
-Note that you need to determine the data partition beforehand, especially for training sets and validation sets, because validation sets do not participate in CarveMix. If you are using the nnU-Net framework,You need  divide themselves at nnunet.training.net work_training. NnUNetTrainerV2. do_split data, you can distinguish by the presence of 'CarveMix' in the name.
 
-We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet. It is important to note that the demo data schema is single-label single-mode. **And multi-label multi-modes such as the BRATS dataset can be modified based on "CarveMix_uniform.py" as you need, even make sure if you need intensity normalization for heterogeneous data.**
+we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even the data format and naming can be referenced in the nnU-Net example (see [nnU-Net](https://github.com/MIC-DKFZ/nnUNet.git)).
+
+Note that you need to determine the data partition beforehand, especially for training sets and validation sets, because validation sets do not participate in CarveMix. If you are using the nnU-Net framework,You need  divide themselves at **nnunet.training.net work_training.nnUNetTrainerV2.do_split()**, you can distinguish by the presence of 'CarveMix' in the name.
+
+We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet. It is important to note that the demo data schema is single-label single-mode. 
+
+**And multi-label multi-modes such as the BraTS dataset can be modified based on "Simple_CarveMix.py" as you need, even make sure if you need intensity normalization for heterogeneous data.**
 
 **First you should prepare task folder**, the following structure is expected:
 
@@ -45,7 +49,7 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
     
  "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. 
  
- **Second, you can run CarveMix_uniform.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
+ **Second, you can run Simple_CarveMix**, you need to specify several path interfaces and generate_number you want. To run the demo:
 
     cd Task100_ATLASwithCarveMix/
     python Simple_CarveMix.py -num 5
