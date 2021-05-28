@@ -15,7 +15,7 @@ For more information about nnU-Net, please read the following paper:
       on Medical Image Computing and Computer Assisted Intervention.
 
 Please also cite this paper if you are using CarveMix for your research!
-#Usage
+# Usage
 **CarveMix augmentation method is agnostic to the network structure**
 we selected the nnU-Net as it has consistently achieved the state-of-the-art performance in a variety of medical image segmentation tasks. Even thed ata format and naming can be referenced in the nnU-Net example (see [here](https://github.com/MIC-DKFZ/nnUNet.git)).
 Note that you need to determine the data partition beforehand, especially for training sets and validation sets, because validation sets do not participate in CarveMix. If you are using the nnU-Net framework,You need  divide themselves at nnunet.training.net work_training. NnUNetTrainerV2. do_split data, you can distinguish by the presence of 'CarveMix' in the name.
