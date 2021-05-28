@@ -36,7 +36,7 @@ Note that you need to determine the data partition beforehand, especially for tr
     │   ├── ATLAS_003.nii.gz
     │   ├── ...
     
- "mask" is folder to save $M_i$ as Fig.1 shows, but not for training, it's optional. We provide a demo datafile named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet.
+ "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. We provide a demo datafile named "Task100_ATLASwithCarveMix" which contains 3 subjects of ATLAS dataet.
  **Second, you can run CarveMix_uniform.py**, you need to specify several path interfaces and generate_number you want. Take the demo, for example:
 
     imagesTr_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/imagesTr'
