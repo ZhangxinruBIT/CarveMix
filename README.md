@@ -44,7 +44,7 @@ We provide a demo data file named "Task100_ATLASwithCarveMix" which contains 3 s
     imagesTr_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/imagesTr'
     labelsTr_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/labelsTr'
     mask_check_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/mask'
-    mixid_csv_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix/'
+    mixid_csv_path = '/data4/xinruzhang/nnUNet/nnUNet_raw/nnUNet_raw_data/Task100_ATLASwithCarveMix'
     generate_number = 5
  
  
