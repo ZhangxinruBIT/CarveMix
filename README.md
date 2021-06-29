@@ -47,8 +47,7 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
     │   ├── ATLAS_003.nii.gz
     │   ├── ...
     
- "mask" is folder to save Mi as Fig.1 shows, but not for training, it's optional. 
- 
+ "mask" is folder to save <img src="http://latex.codecogs.com/gif.latex?M_i" height=10/> as Fig.1 shows, but not for training, it's optional. 
  **Second, you can run Simple_CarveMix.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
 
     cd Task100_ATLASwithCarveMix/
