@@ -22,8 +22,8 @@ def get_distance(f,spacing):
     """Return the signed distance."""
 
     dist_func = ndimage.distance_transform_edt
-    distance = np.where(f, -(dist_func(f,sampling=spacing)-np.ones_like(f)),
-                        dist_func(1-f,sampling=spacing)-np.ones_like(f))
+    distance = np.where(f, -(dist_func(f,sampling=spacing)),
+                        dist_func(1-f,sampling=spacing))
 
     return distance
 
