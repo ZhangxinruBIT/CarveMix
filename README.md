@@ -61,6 +61,6 @@ Because this is the offline version of the data augmentation(currently targeting
 # Notes
 A  preliminary  conference  version  of  this  work  has  been  accepted  by  MICCAI2021 (Zhang et al., 2021)(see [Zhang et al.](https://arxiv.org/abs/2108.06883)) which corresponds to Simple_CarveMix.py in demo **Task100_ATLASwithCarveMix.** 
 
-Compared with the conference version,  we have extended CarveMix so that it can be better applied to heterogeneous data acquired at different sites with possibly different appearances or with the multi-modes. Here, we also give a demo to test.
+Compared with the conference version,  we have extended CarveMix so that it can be better applied to heterogeneous data acquired at different sites with possibly different appearances or with the multi-modes. Here, we also give a demo **Task101_heterogeneous_data**  to test.
     
 
