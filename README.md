@@ -59,7 +59,7 @@ The name of the newly generated image will include the 'Carvemix', the specific 
 Because this is the offline version of the data augmentation(currently targeting brain lesions), completely independent of the network architecture and framework, you can continue to complete training and other operations based on this data. We recommend the nnU-Net framework, and experiments show that our data augmentation approach has a stacking effect on improvement overlap with the traditional data augmentation(**nnunet.training.data_augmentation.default_data_augmentation.get_moreDA_augmentation()**) set in the nnU-Net.
 
 # Notes
-A  preliminary  conference  version  of  this  work  has  been  accepted  by  MICCAI2021 (Zhang et al., 2021)(see [Zhang et al.](https://https://arxiv.org/abs/2108.06883)) which corresponds to Simple_CarveMix.py in demo **Task100_ATLASwithCarveMix.** 
+A  preliminary  conference  version  of  this  work  has  been  accepted  by  MICCAI2021 (Zhang et al., 2021)(see [Zhang et al.](https://arxiv.org/abs/2108.06883)) which corresponds to Simple_CarveMix.py in demo **Task100_ATLASwithCarveMix.** 
 
 Compared with the conference version,  we have extended CarveMix so that it can be better applied to heterogeneous data acquired at different sites with possibly different appearances or with the multi-modes. Here, we also give a demo to test.
     
