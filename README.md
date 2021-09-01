@@ -31,7 +31,7 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
 
 **And multi-modes such as the BraTS dataset can be modified based on "Simple_CarveMix.py" as you need, even make sure if you need intensity normalization for heterogeneous data.**
 
-**First you should prepare task folder**, the following structure is expected:
+**First, prepare task folder**, the following structure is expected:
 
     CarveMix/Task100_ATLASwithCarveMix/
     ├── Simple_CarveMix.py
@@ -48,7 +48,7 @@ We just provide a simple demo data file named "Task100_ATLASwithCarveMix" which 
     │   ├── ...
     
  "mask" is folder to save <img src="http://latex.codecogs.com/gif.latex?M_i" height=10/> as Fig.1 shows, but not for training, it's optional. 
- **Second, you can run Simple_CarveMix.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
+ **Second,  run Simple_CarveMix.py**, you need to specify several path interfaces and generate_number you want. To run the demo:
 
     cd Task100_ATLASwithCarveMix/
     python Simple_CarveMix.py -num 5
