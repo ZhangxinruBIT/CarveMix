@@ -66,10 +66,16 @@ def generate_new_sample(image_a,image_b,label_a,label_b):
     label = np.copy(label_b)
     
     dis_array = get_distance(label,spacing)    #creat signed distance
-    c = np.random.beta(1, 1)#[0,1]             #creat distance
-    λl = np.min(dis_array)/2                   #λl = -1/2|min(dis_array)|
-    λu = -np.min(dis_array)                    #λu = |min(dis_array)|
-    lam = np.random.uniform(λl,λu,1)           #λ ~ U(λl,λu)
+#     c = np.random.beta(1, 1)#[0,1]             #creat distance
+#     λl = np.min(dis_array)/2                   #λl = -1/2|min(dis_array)|
+#     λu = -np.min(dis_array)                    #λu = |min(dis_array)|
+#     lam = np.random.uniform(λl,λu,1)           #λ ~ U(λl,λu)
+    c = np.random.beta(1, 1)   # [0,1] creat distance
+    c = (c-0.5)*2  # [-1.1] 
+    if c>0:
+        lam=c*np.min(dis_array)/2              # λl = -1/2|min(dis_array)|
+    else:
+        lam=c*np.min(dis_array) 
               
     mask = (dis_array<lam).astype('float32')   #creat M   
     
