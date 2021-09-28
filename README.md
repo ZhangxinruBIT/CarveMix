@@ -14,6 +14,11 @@ For more information about CarveMix, please read the following paper:
       "CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation". Medical Image Computing
       and Computer Assisted Intervention(MICCAI),2021.
       
+
+
+Please also cite this paper if you are using CarveMix for your research!
+
+
       @InProceedings{10.1007/978-3-030-87193-2_19,
       author="Zhang, Xinru
       and Liu, Chenghao
@@ -31,10 +36,8 @@ For more information about CarveMix, please read the following paper:
       pages="196--205",
       isbn="978-3-030-87193-2"
       }
+      
 
-
-
-Please also cite this paper if you are using CarveMix for your research!
 # Installation
 ```
 git clone https://github.com/ZhangxinruBIT/CarveMix.git
