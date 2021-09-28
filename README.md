@@ -13,6 +13,26 @@ For more information about CarveMix, please read the following paper:
       Xinru Zhang, Chenghao Liu, Ni Ou, Xiangzhu Zeng, Xiaoliang Xiong, Yizhou Yu, Zhiwen Liu, Chuyang Ye,
       "CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation". Medical Image Computing
       and Computer Assisted Intervention(MICCAI),2021.
+      
+      @InProceedings{10.1007/978-3-030-87193-2_19,
+      author="Zhang, Xinru
+      and Liu, Chenghao
+      and Ou, Ni
+      and Zeng, Xiangzhu
+      and Xiong, Xiaoliang
+      and Yu, Yizhou
+      and Liu, Zhiwen
+      and Ye, Chuyang",
+      title="CarveMix: A Simple Data Augmentation Method for Brain Lesion Segmentation",
+      booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2021",
+      year="2021",
+      publisher="Springer International Publishing",
+      address="Cham",
+      pages="196--205",
+      isbn="978-3-030-87193-2"
+      }
+
+
 
 Please also cite this paper if you are using CarveMix for your research!
 # Installation
