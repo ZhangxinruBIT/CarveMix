@@ -1,0 +1,9 @@
+**ATLAS dataset using 170 samples(100%) to do CarveMix(In fact, out of 170 samples, validation sets need to be removed, so only 136 participate in CarveMix ) 
+to generate a total of 1,000 samples(contain 170 training and validation) for nnUNet architecture.**
+All data related to this case, nnUNet training model and analysis of predicted results are available at the link 
+'''
+https://pan.baidu.com/s/15sJeRLIHWjx1-sjB32lKmg
+code:ucue
+'''
+From the files in the link, you can see how a total of 220 ATLAS datasets are divided into imagesTr and imagesTs in nnUNet. It is convenient for you to reproduce the code.
+Because it is the initial version of "CarveMix", the generated sample does not contain the keyword CarveMix, but is distinguished by serial number 0-829. 
