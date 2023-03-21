@@ -37,6 +37,16 @@ Please also cite this paper if you are using CarveMix for your research!
       isbn="978-3-030-87193-2"
       }
       
+      
+      @article{zhang2023carvemix,
+      title={CarveMix: a simple data augmentation method for brain lesion segmentation},
+      author={Zhang, Xinru and Liu, Chenghao and Ou, Ni and Zeng, Xiangzhu and Zhuo, Zhizheng and Duan, Yunyun and Xiong, Xiaoliang and Yu, Yizhou and           Liu, Zhiwen and Liu, Yaou and others},
+      journal={NeuroImage},
+      pages={120041},
+      year={2023},
+      publisher={Elsevier}
+      }
+      
 
 # Installation
 ```
